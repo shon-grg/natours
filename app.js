@@ -17,7 +17,7 @@ const reviewRouter=require('./routes/reviewRouts');
 const bookingRouter=require('./routes/bookingRouts');
 const viewRouter =require('./routes/viewRouts')
 
- 
+// Start express application
 const app =express();
  
 // app.enable('trust proxy');
