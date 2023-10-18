@@ -96,7 +96,7 @@ exports.protect =catchAsync(async(req,res,next)=>{
     }
     //2)Verification token
    const decoded =await promisify(jwt.verify)(token,process.env.JWT_SECRET);
-   console.log(decoded);
+//    console.log(decoded);
   
     //3)Check if user still exists
     const currentUser=await User.findById(decoded.id);
@@ -172,14 +172,12 @@ exports.forgotPassword = catchAsync(async(req, res, next) => {
   
     const resetToken =await user.createPasswordResetToken();
     await user.save({ validateBeforeSave: false });
-    console.log(resetToken);
     //3) Send it back to the user's email
   
     try {
       const resetURL = `${req.protocol}://${req.get(
         'host'
       )}/api/v1/users/resetPassword/${resetToken}`;
-      console.log(resetURL);
       await new Email(user, resetURL).sendPasswordReset();
       res.status(200).json({
         status: 'success',
