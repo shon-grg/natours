@@ -12,15 +12,6 @@
  <a href="#deployed-version">Demo</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#demonstration">Demonstration</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#api-usage">API Usage</a> •
-  <a href="#deployment">Deployment</a> •
-  <a href="#build-with">Build With</a> •
-  <a href="#to-do">To-do</a> •
-  <a href="#installation">Installation</a> • 
-  <a href="#known-bugs">Known Bugs</a> • 
-  <a href="#future-updates">Future Updates</a> • 
-  <a href="#acknowledgement">Acknowledgement</a>
 </p>
 
 ## Key Features 📝
@@ -57,3 +48,30 @@
   - A regular user can remove a tour from their list of favorite tours.
   - A regular user can not add a tour to their list of favorite tours when it is already a favorite.
 - Credit card Payment
+
+
+## Demonstration 🖥️
+
+#### Home Page :
+
+![natoursHomePageonline-video-cutt](https://user-images.githubusercontent.com/58518192/72606801-7ebe0680-3949-11ea-8e88-613f022a64e5.gif)
+
+#### Tour Details :
+
+![tourOverviewonline-video-cutterc](https://user-images.githubusercontent.com/58518192/72606859-a0b78900-3949-11ea-8f0d-ef44c789957b.gif)
+
+#### Payment Process :
+
+![paymentprocess-1-ycnhrceamp4-7fW](https://user-images.githubusercontent.com/58518192/72606973-d9eff900-3949-11ea-9a2e-f84a6581bef3.gif)
+
+#### Booked Tours :
+
+![rsz_bookedtours](https://user-images.githubusercontent.com/58518192/72607747-6a7b0900-394b-11ea-8b9f-5330531ca2eb.png)
+
+#### User Profile :
+
+![rsz_userprofile](https://user-images.githubusercontent.com/58518192/72607635-44edff80-394b-11ea-8943-64c48f6f19aa.png)
+
+#### Admin Profile :
+
+![rsz_adminprofile](https://user-images.githubusercontent.com/58518192/72607648-4d463a80-394b-11ea-972f-a73160cfaa5b.png)
